@@ -36,7 +36,7 @@ function draw() {
   //text (s,20,60)
   sec.rotation=s*6-90
   min.rotation=m*6-90
-  hr.rotation=h*6-90
+  hr.rotation=h*30-90
   textSize(20)
   fill("black")
   if(h>11){
